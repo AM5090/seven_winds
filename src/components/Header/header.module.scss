@@ -1,8 +1,48 @@
 @import '../../assets/styles/vars.scss';
 
-.header {
+.wrap {
     background-color: $backgroundColor;
     border-bottom: 1px solid #ffffff75;
     color: $mainText;
     padding: 20px $yPadding;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    a {
+        position: relative;
+        color: $mainText;
+        text-decoration: none;
+
+        &.active::before {
+            content: '';
+            display: block;
+            position: absolute;
+            bottom: -28px;
+            left: 0;
+            height: 3px;
+            width: 100%;
+            background-color: #ffffff;
+        }
+
+        &:hover {
+            color: #ffffffa8;
+        }
+    }
+
+    .icon,
+    .share {
+        width: 30px;
+        height: 30px;
+        background-color: #ffffff;
+    }
+
+    * {
+        margin-left: 30px;
+    }
+
+    *:first-child {
+        margin-left: 0px;
+    }
 }

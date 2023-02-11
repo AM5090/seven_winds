@@ -1,0 +1,11 @@
+@import '../../assets/styles/vars.scss';
+
+.wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 18px $yPadding;
+    border-bottom: 1px solid $borderWhite;
+
+}
