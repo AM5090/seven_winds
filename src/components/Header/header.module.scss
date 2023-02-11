@@ -1,0 +1,8 @@
+@import '../../assets/styles/vars.scss';
+
+.header {
+    background-color: $backgroundColor;
+    border-bottom: 1px solid #ffffff75;
+    color: $mainText;
+    padding: 20px $yPadding;
+}

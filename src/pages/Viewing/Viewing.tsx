@@ -1,5 +1,5 @@
 export function Viewing() {
-    return (
-        <h1>Просмотр</h1>
-    );
+  return (
+    <h1>Просмотр</h1>
+  );
 }
