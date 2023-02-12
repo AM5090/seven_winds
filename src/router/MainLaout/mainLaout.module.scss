@@ -1,5 +1,7 @@
+@import '../../assets/styles/vars.scss';
+
 .app {
     display: grid;
-    grid-template-columns: 260px 1fr;
-
+    grid-template-columns: 308px 1fr;
+    height: calc(100vh - $haderHeight);
 }

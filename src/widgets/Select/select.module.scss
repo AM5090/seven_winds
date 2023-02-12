@@ -5,7 +5,21 @@
     align-items: center;
     justify-content: space-between;
 
-    padding: 18px $yPadding;
+    padding: 12px $yPadding;
     border-bottom: 1px solid $borderWhite;
 
+    .selected {
+        .title {
+            font-size: 22px;
+            white-space: nowrap;
+        }
+
+        .company {
+            margin-top: 8px;
+        }
+    }
+
+    .select_button {
+        transform: rotate(90deg);
+    }
 }

@@ -5,6 +5,7 @@
     border-bottom: 1px solid #ffffff75;
     color: $mainText;
     padding: 20px $yPadding;
+    min-height: $haderHeight;
 
     display: flex;
     align-items: center;
@@ -39,7 +40,7 @@
     }
 
     * {
-        margin-left: 30px;
+        margin-left: 40px;
     }
 
     *:first-child {

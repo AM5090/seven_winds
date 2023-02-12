@@ -1,0 +1,28 @@
+@import '../../assets/styles/vars.scss';
+
+.wrap {
+
+    .menu_item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 10px $yPadding;
+        text-decoration: none;
+
+        .icon {
+            width: 28px;
+            height: 28px;
+            background-color: #ffffff;
+        }
+
+        .text {
+            margin-left: 20px;
+            color: $mainText;
+        }
+
+        &:hover {
+            background-color: #ffffff3f;
+        }
+    }
+    
+}

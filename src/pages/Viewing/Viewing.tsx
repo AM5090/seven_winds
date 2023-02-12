@@ -1,5 +1,14 @@
+import { Outlet } from 'react-router-dom';
+
 export function Viewing() {
   return (
-    <h1>Просмотр</h1>
+    <div className="wrap">
+      <div className="files">
+
+      </div>
+      <div className="content">
+        <Outlet/>
+      </div>
+    </div>
   );
 }
