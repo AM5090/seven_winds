@@ -1,0 +1,8 @@
+@import '../../assets/styles/vars.scss';
+
+.wrap {
+  .files {
+    min-height: $headerHeight;
+    border-bottom: 1px solid $borderWhite;
+  } 
+}

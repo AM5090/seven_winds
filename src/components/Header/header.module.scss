@@ -3,9 +3,9 @@
 .wrap {
     background-color: $backgroundColor;
     border-bottom: 1px solid #ffffff75;
-    color: $mainText;
+    color: $mainTextColor;
     padding: 20px $yPadding;
-    min-height: $haderHeight;
+    min-height: $headerHeight;
 
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@
 
     a {
         position: relative;
-        color: $mainText;
+        color: $mainTextColor;
         text-decoration: none;
 
         &.active::before {

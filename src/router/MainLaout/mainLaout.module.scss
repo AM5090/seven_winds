@@ -3,5 +3,5 @@
 .app {
     display: grid;
     grid-template-columns: 308px 1fr;
-    height: calc(100vh - $haderHeight);
+    height: calc(100vh - $headerHeight);
 }
