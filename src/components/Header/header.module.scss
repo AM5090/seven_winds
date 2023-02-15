@@ -4,46 +4,47 @@
     background-color: $backgroundColor;
     border-bottom: 1px solid #ffffff75;
     color: $mainTextColor;
-    padding: 20px $yPadding;
+    padding: 10px $yPadding;
     min-height: $headerHeight;
 
     display: flex;
     align-items: center;
     justify-content: flex-start;
 
-    a {
+    svg + svg {
+      margin-left: 20px;
+    }
+
+    .main_pages {
+      margin-left: 31px;
+
+      a {
         position: relative;
-        color: $mainTextColor;
+        color: $secondTextColor;
         text-decoration: none;
+
+        &.active {
+          color: $mainTextColor;
+        }
 
         &.active::before {
             content: '';
             display: block;
             position: absolute;
-            bottom: -28px;
+            bottom: -14px;
             left: 0;
-            height: 3px;
+            height: 2px;
             width: 100%;
             background-color: #ffffff;
         }
 
         &:hover {
-            color: #ffffffa8;
+            color: $mainTextColor;
         }
-    }
 
-    .icon,
-    .share {
-        width: 30px;
-        height: 30px;
-        background-color: #ffffff;
-    }
-
-    * {
-        margin-left: 40px;
-    }
-
-    *:first-child {
-        margin-left: 0px;
+        & + a {
+          margin-left: 28px;
+        }
+      }
     }
 }

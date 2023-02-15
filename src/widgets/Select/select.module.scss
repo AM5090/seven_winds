@@ -9,20 +9,17 @@
     padding-left: $yPadding;
     padding-right: $yPadding;
     border-bottom: 1px solid $borderWhite;
+    color: $secondTextColor;
 
     .selected {
         .title {
-            font-size: 22px;
+            font-size: $textMainSize;
             white-space: nowrap;
         }
 
         .company {
-            margin-top: 6px;
-            font-size: 15px;
+          font-size: calc($textMainSize - 4px);
         }
     }
 
-    .select_button {
-        transform: rotate(90deg);
-    }
 }

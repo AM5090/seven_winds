@@ -24,8 +24,8 @@ export function Navbar() {
 
   return (
     <nav className={styles.wrap}>
-        <Select/>
-        <Menu menuList={activeMenu} />
+      <Select/>
+      <Menu menuList={activeMenu} />
     </nav>
   );
 }

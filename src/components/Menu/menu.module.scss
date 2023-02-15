@@ -9,19 +9,13 @@
         padding: 10px $yPadding;
         text-decoration: none;
 
-        .icon {
-            width: 28px;
-            height: 28px;
-            background-color: #ffffff;
-        }
-
         .text {
-            margin-left: 20px;
+            margin-left: 14px;
             color: $mainTextColor;
         }
 
         &:hover {
-            background-color: #ffffff3f;
+            background-color: $secondTextColor;
         }
     }
     
