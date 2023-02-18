@@ -8,8 +8,17 @@
 
     padding-left: $yPadding;
     padding-right: $yPadding;
-    border-bottom: 1px solid $borderWhite;
     color: $secondTextColor;
+    border-right: 1px solid $borderWhite;
+    cursor: pointer;
+
+    &:hover {
+        .selected {
+            .company {
+                color: $mainTextColor;
+            }
+        }
+    }
 
     .selected {
         .title {
