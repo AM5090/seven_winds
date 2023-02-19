@@ -12,7 +12,6 @@ export function Viewing() {
   return (
     <div className={styles.wrap}>
       <div className={styles.content}>
-        { location.pathname === `/${paths.viewing.path}` && <h1>Просмотр</h1>}
         <Outlet/>
       </div>
     </div>

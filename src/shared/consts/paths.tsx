@@ -2,7 +2,7 @@ import { Management, Viewing } from '../../pages';
 
 export const paths = {
   viewing: {
-    path: 'viewing',
+    path: '/',
     name: 'Просмотр',
     element: <Viewing/>,
     pages: {

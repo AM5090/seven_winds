@@ -20,7 +20,7 @@ export function Menu({ menuList }: MenuType) {
 
       {Array.isArray(menuList) &&
 				menuList?.map((item) => (
-				  <Link to={`viewing/${item.path}`} 
+				  <Link to={`/${item.path}`} 
 				    key={item.path}
 				    defaultValue={item.fullName} 
 				    className={styles.menu_item}
