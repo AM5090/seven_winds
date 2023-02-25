@@ -13,7 +13,7 @@ export function Navbar() {
   const [activeMenu, setActiveMenu] = useState<MenuListType[]>([]);
 
   useEffect(() => {
-    if(location.pathname === `/${paths.viewing.path}`) {
+    if(location.pathname.includes(`/${paths.viewing.path}`)) {
       const menuList: MenuListType[] = Object.values(paths?.viewing?.pages);
       setActiveMenu(menuList);
     } else if(location.pathname === `/${paths.management.path}`) {

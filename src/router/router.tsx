@@ -1,5 +1,7 @@
 import { createBrowserRouter, createRoutesFromElements, Route } from 'react-router-dom';
 
+import { SmrPage } from '../components';
+
 import { Empty } from '../pages';
 import { paths } from '../shared/consts';
 
@@ -8,7 +10,7 @@ import { MainLaout } from './MainLaout';
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <Route element={<MainLaout/>} >
-      <Route path={paths.viewing.path} element={paths.viewing.element} >
+      <Route path={paths?.viewing?.path} element={paths?.viewing?.element} >
         <Route 
           path={paths.viewing.pages.project.path} 
           element={
@@ -32,7 +34,7 @@ export const router = createBrowserRouter(
         <Route 
           path={paths.viewing.pages.smr.path} 
           element={
-            <Empty pageName={paths.viewing.pages.smr.fullName}/>
+            <SmrPage/>
           }/>
         <Route 
           path={paths.viewing.pages.chart.path} 

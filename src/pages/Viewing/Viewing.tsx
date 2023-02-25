@@ -1,5 +1,4 @@
-import { useEffect, useState } from 'react';
-import { Outlet, useLocation } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 
 import styles from './viewing.module.scss';
 
