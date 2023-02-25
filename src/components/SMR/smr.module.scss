@@ -1,0 +1,15 @@
+@import '../../assets/styles/vars.scss';
+
+.wrap {
+  .header {
+    display: grid;
+    grid-template-columns: $smrRowGrid;
+    border-bottom: 1px solid #414144;
+    
+    .text {
+      color: $secondTextColor;
+      padding: 12px $yPadding;
+    }
+  }
+  
+}

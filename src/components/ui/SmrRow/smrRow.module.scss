@@ -1,0 +1,17 @@
+@import '../../../assets/styles/vars.scss';
+
+.main {
+  .main_row {
+    display: grid;
+    grid-template-columns: $smrRowGrid;
+    height: calc($headerHeight + 10px);
+    border-bottom: 1px solid #414144;
+    
+    .text {
+      color: $mainTextColor;
+      padding: 12px $yPadding;
+      display: flex;
+      align-items: center;
+    }
+  }
+}

@@ -10,7 +10,7 @@ export const rowsApi = createApi({
     baseUrl: BASE_URL,
   }),
   endpoints: (builder) => ({
-    getTreeRows: builder.query<TreeRowsResult, void>({
+    getTreeRows: builder.query<TreeRowsResult[], void>({
       query: () => GET_TREE_ROWS_ENDPOINT,
     }),
   }),
