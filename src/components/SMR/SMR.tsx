@@ -29,6 +29,7 @@ export function SmrPage() {
             <SmrRow smrRowItem={item}/>
           ))
         }
+        <SmrRow />
       </div>
     </div>
   );

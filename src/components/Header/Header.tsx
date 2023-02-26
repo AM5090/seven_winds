@@ -31,7 +31,9 @@ export function Header() {
       <div className={styles.bottom}>
         <Select/>
         <div className={styles.files}>
-
+          <div className={styles.open_file}>
+            Строительно-монтажные работы
+          </div>
         </div>
       </div>
     </header>

@@ -4,8 +4,15 @@
   .main_row {
     display: grid;
     grid-template-columns: $smrRowGrid;
-    height: calc($headerHeight + 10px);
+    height: calc($headerHeight + 20px);
     border-bottom: 1px solid #414144;
+
+    .icon {
+      padding: 12px $yPadding;
+      display: flex;
+      align-items: center;
+      z-index: 10;
+    }
     
     .text {
       color: $mainTextColor;
